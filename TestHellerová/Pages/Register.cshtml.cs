@@ -45,7 +45,7 @@ namespace TestHellerová.Pages
 
         [Required]
         [Display(Name = "Odkud jste se od nás dozvěděli?")]
-        public KnowledgeSource Informace { get; set; }
+        public KnowledgeSource Information { get; set; }
         public List<SelectListItem> Pobocky { get; set; }
         public RegisterModel()
         {
@@ -81,9 +81,6 @@ namespace TestHellerová.Pages
             }
             return RedirectToPage("Success", new { firstname = Jmeno, email = Email });
         }
-    }
-    public void OnGet()
-    {
     }
 }
 

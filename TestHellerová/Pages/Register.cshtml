@@ -20,12 +20,12 @@
             </select>
         </div>
         <div>
-            <label asp-for="@Model.Informace" class="form-label"></label>
+            <label asp-for="@Model.Information" class="form-label"></label>
             @foreach (var a in Enum.GetValues(typeof(KnowledgeSource)))
             {
                 <div class="form-check">
-                    <input class="for-check-input" type="radio" asp-for="@Model.Informace" value="@a" />
-                    <label class="form-check-label" asp-for="@Model.Informace">@a</label>
+                    <input class="for-check-input" type="radio" asp-for="@Model.Information" value="@a" />
+                    <label class="form-check-label" asp-for="@Model.Information">@a</label>
                 </div>
             }
         </div>
