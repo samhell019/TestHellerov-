@@ -1,0 +1,17 @@
+﻿@page
+@model TestHellerová.Pages.RegisterModel
+@{
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="@Model.Jmeno"></label>
+            <input asp-for="@Model.Jmeno" type="text" id="jmeno_id" class="form-control" placeholder="Jmeno" />
+            <span asp-validation-for="@Model.Jmeno" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Email"></label>
+            <input asp-for="@Model.Email" type="email" class="form-control" placeholder="123@example.com" />
+            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+        </div>
+    </form>
+        }
+ 
