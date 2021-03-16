@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\Windows\Desktop\Register.cshtml" Link="Register.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="C:\Users\Windows\Desktop\Register.cshtml" Link="Register.cshtml" />
+  </ItemGroup>
+
 </Project>
